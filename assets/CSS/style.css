@@ -1,0 +1,53 @@
+body{
+    background-color: #a8dadc;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    background-color: #1d3557;
+}
+.container{
+    width: 1366px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-bar{
+    width: 25%;
+}.menu{
+    width: 50%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+li{
+    padding: 5%;
+    margin: 10%;
+    border: 1px solid #f1faee;
+    background-color: #f1faee;
+    text-align: center;
+    border-radius: 6px;  
+}
+.login{
+    float: right;
+    margin-top: 5%;
+}
+.log-input{
+    border: 1px solid;
+    background-color: #f1faee;
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+}
+.submit{
+    border: 1px solid;
+    background-color: #f1faee;
+    height: 30px;
+    width: 50px;
+    border-radius: 8px;
+}
